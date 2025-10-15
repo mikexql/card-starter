@@ -13,16 +13,10 @@ MonoBehaviour:
   m_Name: InitalDeck
   m_EditorClassIdentifier: 
   deckId: deck_default
-  deckName: 
+  deckName: Exodia Deck
   cardList:
-  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: e1783ca46b526944c969405b4c0a29ec, type: 2}
-  - {fileID: 11400000, guid: e1783ca46b526944c969405b4c0a29ec, type: 2}
-  - {fileID: 11400000, guid: e1783ca46b526944c969405b4c0a29ec, type: 2}
-  - {fileID: 11400000, guid: e1783ca46b526944c969405b4c0a29ec, type: 2}
-  - {fileID: 11400000, guid: 1e43cdb39f5836b44942f367125cadde, type: 2}
-  - {fileID: 11400000, guid: 1e5671bf6b0f90b428df809497a2f125, type: 2}
+  - {fileID: 11400000, guid: cdbdb44bc6514874abc95fd8fa07fae9, type: 2}
   - {fileID: 11400000, guid: 3b5ee84d4a8dcc146a68c877b79b8777, type: 2}
+  - {fileID: 11400000, guid: a15919659864609458190c5ff908f6f1, type: 2}
+  - {fileID: 11400000, guid: 777c869eabf7e424b95a350c72f8b803, type: 2}
+  - {fileID: 11400000, guid: fe866c61e4cee6146bb308c7eb0eccc8, type: 2}

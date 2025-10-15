@@ -10,29 +10,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c6903f06e96c43789549f142f8956d64, type: 3}
-  m_Name: 10_new_card_name
+  m_Name: 11_Exodia_LA
   m_EditorClassIdentifier: Assembly-CSharp::NueGames.NueDeck.Scripts.Data.Collection.CardData
-  id: 10_new_card_name
-  cardName: 10_new_card_name
+  id: Exodia_LA
+  cardName: Exodia Left Arm
   manaCost: 0
-  cardSprite: {fileID: 21300000, guid: 02284fe64271ba949bf3ac093709ff33, type: 3}
+  cardSprite: {fileID: 1079580359, guid: 50d9cf6d824356945bd9dee5348488cc, type: 3}
   rarity: 0
   usableWithoutTarget: 1
-  exhaustAfterPlay: 0
+  exhaustAfterPlay: 1
   cardActionDataList:
-  - cardActionType: 5
-    actionTargetType: 0
-    actionValue: 3
+  - cardActionType: 10
+    actionTargetType: 1
+    actionValue: 0
     actionDelay: 0
-  cardDescriptionDataList:
-  - descriptionText: 
-    enableOverrideColor: 0
-    overrideColor: {r: 0, g: 0, b: 0, a: 1}
-    useModifier: 1
-    modifiedActionValueIndex: 0
-    modiferStats: 0
-    usePrefixOnModifiedValue: 0
-    modifiedValuePrefix: '*'
-    overrideColorOnValueScaled: 0
+  - cardActionType: 11
+    actionTargetType: 2
+    actionValue: 999999
+    actionDelay: 1
+  cardDescriptionDataList: []
   specialKeywordsList: 
   audioType: 0

@@ -96,6 +96,8 @@ namespace NueGames.NueDeck.Scripts.Managers
                 case CombatStateType.PrepareCombat:
                     break;
                 case CombatStateType.AllyTurn:
+                    
+                    Exodia.ResetTurn();
 
                     OnAllyTurnStarted?.Invoke();
                     
