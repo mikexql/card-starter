@@ -11,7 +11,9 @@ namespace NueGames.NueDeck.Scripts.Card.CardActions
 
         public override void DoAction(CardActionParameters actionParameters)
         {
+            var selfCharacter = actionParameters.SelfCharacter;
             Exodia.Mark(string.IsNullOrEmpty(pieceId) ? actionParameters.CardData.Id : pieceId);
+            selfCharacter.CharacterStats.ApplyStatus(StatusType.TeoEnMing,1);
         }
     }
 }

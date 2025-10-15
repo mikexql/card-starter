@@ -73,6 +73,8 @@ namespace NueGames.NueDeck.Scripts.Characters
             
             StatusDict[StatusType.Stun].DecreaseOverTurn = true;
             StatusDict[StatusType.Stun].OnTriggerAction += CheckStunStatus;
+
+            StatusDict[StatusType.TeoEnMing].ClearAtNextTurn = true;
             
         }
         #endregion
