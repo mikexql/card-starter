@@ -16,7 +16,7 @@ MonoBehaviour:
   cardName: Exodia Right Leg
   manaCost: 0
   cardSprite: {fileID: 1675021713, guid: 50d9cf6d824356945bd9dee5348488cc, type: 3}
-  rarity: 0
+  rarity: 2
   usableWithoutTarget: 1
   exhaustAfterPlay: 1
   cardActionDataList:
